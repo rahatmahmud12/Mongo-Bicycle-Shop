@@ -15,11 +15,12 @@ const Myorders = () => {
 
 
             <>
+                <p className="text-6xl text-center text-white">Your Orders</p>
                 <div
-                    className="ml-24  grid-2"
+                    className="ml-24 flex flex-wrap"
 
                 >
-                    <p className="text-6xl text-white">Your Orders</p>
+
                     {
                         orders.map(order => <Manage
                             key={order._id}

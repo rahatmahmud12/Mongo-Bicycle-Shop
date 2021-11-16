@@ -20,7 +20,7 @@ const AddProduct = () => {
     };
     return (
         <div>
-            <h1 className="mx-auto mt-24">Please Add A Product</h1>
+            <h1 className="text-center text-gray-200 mt-24">Please Add A Product</h1>
             <div className="mt-24 flex-col add-service">
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <input placeholder="Product" className="border-2" {...register("name")} />

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Payment = () => {
     return (
-        <div className="text-center">
+        <div className="text-center ml-64">
 
             <div class="mx-auto pt-15">
                 <div class="grid gap-6 mb-8 md:grid-cols-2">
@@ -15,7 +15,7 @@ const Payment = () => {
                         <p class="text-gray-600 dark:text-gray-400">
                             Our payment methods are coming soon.
                         </p>
-                        <Button><Link className="text-white" to="/home">Go Back To Home</Link></Button>
+                        <Button><Link className="no-underline text-white" to="/home">Go Back To Home</Link></Button>
                     </div>
 
 

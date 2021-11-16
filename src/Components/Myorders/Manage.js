@@ -16,11 +16,11 @@ const Manage = (props) => {
             })
     }
     return (
-        <div className="border-4 rounded-md mb-2 mt-10 w-25 p-4 ">
+        <div className="border-4 ml-5 rounded-md mb-2 mt-10 w-25 p-4 ">
 
-            <h2 className="text-Black ">{order.name}</h2>
-            <h2 className="text-gray-700 text-sm">{order._id}</h2>
-            <button className="bg-blue-800 p-2 rounded-lg" onClick={() => handleDelete(order._id)}>Delete</button>
+            <h2 className="text-white ">{order.name}</h2>
+            <h2 className="text-white text-sm">{order._id}</h2>
+            <button className="bg-blue-800 p-2 text-center text-white rounded-lg" onClick={() => handleDelete(order._id)}>Delete</button>
 
         </div>
     );

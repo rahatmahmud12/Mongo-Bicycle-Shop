@@ -6,6 +6,7 @@ const SelectedProduct = (props) => {
     const { _id, name, img } = props.product
     return (
         <div>
+            <h1 className="text-center text-red-200 text-6xl"> Our products</h1>
             <section className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mt-12 mb-12">
                 <article>
 

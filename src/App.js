@@ -22,6 +22,7 @@ import AddReviews from './Components/AddReview.js/AddReviews';
 import ModalPur from './Components/Purchase/Modal/ModalPur';
 import SetReview from './Components/Home/Review/SetRev/SetReview';
 import Payment from './Components/Payment/Payment';
+import MakeAdmin from './Components/Dasboard/MakeAdmin/MakeAdmin';
 
 function App() {
   return (
@@ -50,10 +51,7 @@ function App() {
               <About></About>
 
             </PrivateRoute>
-            <Route path="/addProduct">
-              <AddProduct></AddProduct>
 
-            </Route>
             <Route path="/products">
               <Products></Products>
             </Route>
@@ -84,6 +82,7 @@ function App() {
             <Route path="/pay">
               <Payment></Payment>
             </Route>
+
           </Switch>
 
         </Router>
