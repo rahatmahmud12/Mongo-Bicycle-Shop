@@ -5,7 +5,7 @@ import Product from './Product/Product';
 const Products = () => {
     const [products, setProducts] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://fierce-wildwood-43514.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
@@ -15,7 +15,7 @@ const Products = () => {
         <div>
             <Header></Header>
             <h1 className="text-5xl text-center mt-32">All Products</h1>
-            <div className="grid grid-cols-3 mt-20">
+            <div className="grid md:grid-cols-2  sm-grid-col-1 lg:grid-cols-3 mt-20">
 
                 {
                     products.map(product => <Product

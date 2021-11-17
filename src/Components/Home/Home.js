@@ -9,7 +9,7 @@ import Review from './Review/Review';
 const Home = () => {
     const [products, setProducts] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://fierce-wildwood-43514.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
@@ -23,7 +23,9 @@ const Home = () => {
 
 
             </div>
-            <div className="mt-40 grid grid-cols-3">
+            <h1 className="text-center text-red-400 text-6xl mt-32"> Our Products</h1>
+            <div className="mt-24 grid md:grid-cols-2  sm-grid-col-1 lg:grid-cols-3">
+
                 {
                     sixProducts.map(product => <SelectedProduct
                         product={product}

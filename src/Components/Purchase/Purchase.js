@@ -15,7 +15,7 @@ const Purchase = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/products/${productId}`)
+        fetch(`https://fierce-wildwood-43514.herokuapp.com/products/${productId}`)
             .then(res => res.json())
             .then(data => setProduct(data))
     }, [])
@@ -26,7 +26,7 @@ const Purchase = () => {
     // const onClick = data => {
 
     //     console.log(data);
-    //     axios.post('http://localhost:5000/orders', data)
+    //     axios.post('https://fierce-wildwood-43514.herokuapp.com/orders', data)
     //         .then(res => {
     //             console.log(res)
     //             if (res.status) {

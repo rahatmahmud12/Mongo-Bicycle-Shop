@@ -18,7 +18,7 @@ export default function ModalPur({ showModal, handleModalClose, pro }) {
     const onSubmit = data => {
 
         console.log(data);
-        axios.post('http://localhost:5000/orders', data)
+        axios.post('https://fierce-wildwood-43514.herokuapp.com/orders', data)
             .then(res => {
                 console.log(res)
                 if (res.status) {

@@ -26,10 +26,10 @@ const Product = (props) => {
                                         {name}
                                     </h6>
                                 </h3>
-                                <p className="text-base font-semibold text-gray-900 group-hover:text-indigo-600">
+                                <p className="text-base font-semibold text-center text-gray-900 group-hover:text-indigo-600">
                                     {Description}</p>
 
-                                <Link to={`/product/${_id}`}><button className="bg-blue-500 text-center pl-24 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                                <Link className="pl-32" to={`/product/${_id}`}><button className="bg-blue-500 text-center pl-24 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                                     Purchase
                                 </button></Link>
                             </div>

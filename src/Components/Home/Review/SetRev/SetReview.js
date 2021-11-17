@@ -13,7 +13,7 @@ const SetReview = () => {
     const onSubmit = data => {
 
         console.log(data);
-        axios.post('http://localhost:5000/reviews', data)
+        axios.post('https://fierce-wildwood-43514.herokuapp.com/reviews', data)
             .then(res => {
                 console.log(res)
                 if (res.status) {

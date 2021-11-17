@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import useAuth from '../../../Hooks/useAuth';
+
 
 
 const MakeAdmin = () => {
     const [email, setEmail] = useState('');
     const [success, setSuccess] = useState(false);
-    const { token } = useAuth();
+
 
 
     const handleOnBlur = e => {
@@ -14,13 +14,13 @@ const MakeAdmin = () => {
     const handleAdminSubmit = e => {
         const user = { email };
         console.log(user)
-        fetch('http://localhost:5000/users/admin', {
+        fetch('https://fierce-wildwood-43514.herokuapp.com/users/admin', {
             method: 'PUT',
             headers: {
-                'authorization': `Bearer ${token}`,
+
                 'content-type': 'application/json'
             },
-            body: JSON.stringify(user)
+            body: json.stringify(user)
         })
             .then(res => res.json())
             .then(data => {

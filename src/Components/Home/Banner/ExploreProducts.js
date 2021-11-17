@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Explore.css'
 
 const ExploreProducts = () => {
     return (
         <div>
-            <div className=" ml-52 -mb-40  w-full">
+            <div className="explore ml-52 -mb-40  w-full">
                 <div
                     className="
           

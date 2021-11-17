@@ -4,7 +4,7 @@ import ExploreProducts from './ExploreProducts';
 
 const Banner = () => {
     return (
-        <div className="mt-12 p banner">
+        <div className="mt-12 p banner object-contain">
             <h3 className=" text-center text">Mongo Bicycle Shop</h3>
             <br />
             <br />

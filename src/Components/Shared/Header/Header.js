@@ -27,7 +27,7 @@ const Header = () => {
 
 
 
-                                <Link className="head-text no-underline pl-10 text-white" to="/addProduct">Add A Product</Link>
+
 
 
 
@@ -48,7 +48,7 @@ const Header = () => {
 
                             {
                                 user?.email ?
-                                    <button onClick={logout} className="text-white ml-3" >Log Out</button>
+                                    <button onClick={logout} className="text-white ml-3" >Log Out -{user.displayName}</button>
                                     :
                                     <NavLink className=" text-white text-2xl no-underline" to="/login">Log In</NavLink>}
                         </Navbar.Collapse>

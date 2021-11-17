@@ -3,7 +3,7 @@ import React from 'react';
 const Handle = (props) => {
     const { product } = props
     const handleDelete = id => {
-        const url = `http://localhost:5000/products/${id}`;
+        const url = `https://fierce-wildwood-43514.herokuapp.com/products/${id}`;
         fetch(url, {
             method: 'DELETE'
 
