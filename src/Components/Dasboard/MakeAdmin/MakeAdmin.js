@@ -20,7 +20,7 @@ const MakeAdmin = () => {
 
                 'content-type': 'application/json'
             },
-            body: json.stringify(user)
+            body: JSON.stringify(user)
         })
             .then(res => res.json())
             .then(data => {
