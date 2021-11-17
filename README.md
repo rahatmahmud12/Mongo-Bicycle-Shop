@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Mongo Bicycle Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Mongo Bicycle Shop is a trading name for Cycle Centre Congleton Limited. Cycle Centre Congleton Limited trading as Cyclestore acts as a credit broker and offers credit products from V12 Retail
 
-## Available Scripts
+## Our product quality
 
-In the project directory, you can run:
+Modern Disc Brakes with Dual-Channel ABS. They say that a bike must stop twice as quickly for as fast as it can go. 
+Performance Tyres.
+Liquid Cooling. 
+A Modern Chassis & Suspension Combination.
 
-### `npm start`
+### Usefulness of cycling
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+increased cardiovascular fitness. 
+increased muscle strength and flexibility. 
+improved joint mobility. 
+decreased stress levels. 
+improved posture and coordination. 
+strengthened bones. 
+decreased body fat levels. 
+prevention or management of disease. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Cycling helps to reduce belly fat
 
-### `npm run build`
+Cycling can help lose belly fat, but it will take time. A recent study showed regular cycling may enhance overall fat loss and promote a healthy weight. To reduce overall belly girth, moderate-intensity aerobic exercises, such as cycling (either indoor or outdoor), are effective to lower belly fat.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Our shop Live site
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://matha-nosto-5d89d.web.app/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Server site
 
-### `npm run eject`
+https://fierce-wildwood-43514.herokuapp.com/
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
